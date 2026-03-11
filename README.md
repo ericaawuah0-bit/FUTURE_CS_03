@@ -1,31 +1,35 @@
 # API Testing with Postman
 
-This project demonstrates basic API testing using Postman as part of the Future Interns cybersecurity/API task.
+This project demonstrates basic API testing using Postman.
 
 ## GET Request Test
 A GET request was sent to the following API endpoint:
 
 https://jsonplaceholder.typicode.com/posts
 
-The request successfully returned a **200 OK** response and displayed JSON data containing multiple sample posts.
+The server returned a **200 OK** response with JSON data containing sample posts.
+
+### GET Request Screenshot
+![GET Request](screenshots/postman_get_posts.png)
+
+---
 
 ## POST Request Test
-A POST request was sent to:
+A POST request was sent to the following API endpoint:
 
 https://jsonplaceholder.typicode.com/posts
 
-A JSON body was submitted with the following fields:
+A JSON body was submitted containing:
 - title
 - body
 - userId
 
 The server returned a **201 Created** response confirming the new resource was created.
 
-## Screenshots
-Screenshots of both requests are included in the **screenshots folder**.
+### POST Request Screenshot
+![POST Request](screenshots/postman_post_request.png)
 
-- GET request result
-- POST request result
+---
 
 ## Tools Used
 - Postman
